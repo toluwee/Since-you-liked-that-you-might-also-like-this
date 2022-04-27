@@ -1,5 +1,5 @@
-# How can we help? 
-### Disaster Response Project
+# Since you liked that you might like this
+### Content Recommendation System for IBM Watson Studio 
 
 ![Intro Pic](images/intro.png)
 
@@ -17,6 +17,12 @@
 6. [Screenshots](#screenshots)
 
 <a name="descripton"></a>
+
+## Project Motivation
+
+In the IBM Watson Studio, there is a large collaborative community ecosystem of articles, datasets, notebooks, and other A.I. and ML. assets. Users of the system interact with all of this. Within this scope, we created this recommendation system project to enhance the user experience and connect them with assets. This personalizes the experience for each user.
+
+
 ## Description
 
 Constructed a database and ETL pipeline in SQLite to prepare message data from major natural disasters all over the world. In addition, a machine learning pipeline that uses a natural language processing (NLP) model was built to classify emergency messages based on the sender's stated need. Finally, the pipelines were used to create a website app that categorizes messages.
