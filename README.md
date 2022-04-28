@@ -73,7 +73,7 @@ Finally, I completed a machine learning approach to building recommendations. Us
 ### Installation
 To clone the git repository:
 ```
-git clone https://github.com/toluwee/Disaster_response-with-ML.git
+git clone https://github.com/toluwee/Content-Recommendation-System-for-IBM-Watson-Studio.git
 ```
 
 <a name="authors"></a>
