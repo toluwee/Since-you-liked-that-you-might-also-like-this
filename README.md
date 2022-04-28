@@ -1,7 +1,7 @@
 # Since you liked that you might also like this!
 ### Content Recommendation System for IBM Watson Studio 
 
-![Intro Pic](images/intro.png)
+![Intro Pic](image/Picture1.png)
 
 
 ## Table of Contents
