@@ -9,12 +9,12 @@
 2. [Description](#description)
 3. [Getting Started](#getting_started)
 4. [Project Steps](#Project_Steps)
-5. [Dependencies](#dependencies)
-6. [Installation](#installation)
-7. [Authors](#authors)
-8. [License](#license)
-9. [Acknowledgement](#acknowledgement)
-10. [Recommendation Accuracy](#screenshots)
+5. [Sample Output](#screenshots)
+6. [Dependencies](#dependencies)
+7. [Installation](#installation)
+8. [Authors](#authors)
+9. [License](#license)
+10. [Acknowledgement](#acknowledgement)
 
 <a name="Project_Motivation"></a>
 ## Project Motivation
@@ -56,6 +56,10 @@ V. Matrix Factorization
 
 Finally, I completed a machine learning approach to building recommendations. Using the user-item interactions, I built out a matrix decomposition. Using the decomposition, I got an idea of how well I could predict new articles an individual might interact with. I then discussed which methods to use moving forward, and how to test how well the recommendations are working for engaging users.
 
+<a name="screenshots"></a>
+## Sample Output
+
+![Sample Output](image/output.png)
 
 <a name="dependencies"></a>
 ### Dependencies
@@ -87,10 +91,7 @@ git clone https://github.com/toluwee/Disaster_response-with-ML.git
 * [Udacity](https://www.udacity.com/) for providing an amazing Data Science Nanodegree Program
 * [IBM Watson Studio platform](https://dataplatform.cloud.ibm.com/) for providing the relevant dataset to train the model
 
-<a name="screenshots"></a>
-## Recommendation Accuracy
 
-![Sample Output](image/output.png)
 
 
 
