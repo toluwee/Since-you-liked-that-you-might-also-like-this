@@ -5,24 +5,23 @@
 
 
 ## Table of Contents
-1. [Description](#description)
-2. [Getting Started](#getting_started)
-	1. [Dependencies](#dependencies)
-	2. [Installing](#installation)
-	3. [Project Steps](#Project Steps)
-	4. [Additional Material](#material)
-3. [Authors](#authors)
-4. [License](#license)
-5. [Acknowledgement](#acknowledgement)
-6. [Screenshots](#screenshots)
+1. [Project Motivation](#Project_Motivation)
+2. [Description](#description)
+3. [Getting Started](#getting_started)
+4. [Project Steps](#Project_Steps)
+5. [Dependencies](#dependencies)
+6. [Installation](#installation)
+7. [Authors](#authors)
+8. [License](#license)
+9. [Acknowledgement](#acknowledgement)
+10. [Recommendation Accuracy](#screenshots)
 
-<a name="descripton"></a>
-
+<a name="Project_Motivation"></a>
 ## Project Motivation
 
 In the IBM Watson Studio, there is a large collaborative community ecosystem of articles, datasets, notebooks, and other A.I. and ML. assets. Users of the system interact with all of this. Within this scope, I created this recommendation system project to enhance the user experience and connect them with assets. This personalizes the experience for each user.
 
-<a name="getting_started"></a>
+<a name="Description"></a>
 ## Description
 
 Explored and analyzed the IBM Watson Studio platform data. Proceeded to create recommendations for users using rank based , user-user based collaborative filtering and content based methods. 
@@ -34,7 +33,7 @@ Key Skills Demonstrated:
 * User-User Based Collaborative Filtering
 * Matrix Factorization
 
-<a name="getting_started"></a>
+<a name="Project_Steps"></a>
 ## Project Steps
 This project is divided in the following key sections:
 
@@ -67,7 +66,7 @@ Finally, I completed a machine learning approach to building recommendations. Us
 
 
 <a name="installation"></a>
-### Installing
+### Installation
 To clone the git repository:
 ```
 git clone https://github.com/toluwee/Disaster_response-with-ML.git
