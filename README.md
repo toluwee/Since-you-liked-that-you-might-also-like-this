@@ -66,7 +66,7 @@ Finally, I completed a machine learning approach to building recommendations. Us
 * Python 3.5+
 * Libraries: NumPy, Regular expressions, Seaborn, Pandas, Scikit-learn
 * Natural Language Process Libraries: NLTK
-* Others: progressbar, pycodestyle, pycodestyle_magic, flake8
+* Others: progressbar, pycodestyle, pycodestyle_magic, flake8, pickle
 
 
 <a name="installation"></a>
