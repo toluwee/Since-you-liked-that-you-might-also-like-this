@@ -9,7 +9,7 @@
 2. [Getting Started](#getting_started)
 	1. [Dependencies](#dependencies)
 	2. [Installing](#installation)
-	3. [Executing Program](#execution)
+	3. [Project Steps](#Project Steps)
 	4. [Additional Material](#material)
 3. [Authors](#authors)
 4. [License](#license)
@@ -20,38 +20,51 @@
 
 ## Project Motivation
 
-In the IBM Watson Studio, there is a large collaborative community ecosystem of articles, datasets, notebooks, and other A.I. and ML. assets. Users of the system interact with all of this. Within this scope, we created this recommendation system project to enhance the user experience and connect them with assets. This personalizes the experience for each user.
+In the IBM Watson Studio, there is a large collaborative community ecosystem of articles, datasets, notebooks, and other A.I. and ML. assets. Users of the system interact with all of this. Within this scope, I created this recommendation system project to enhance the user experience and connect them with assets. This personalizes the experience for each user.
 
+<a name="getting_started"></a>
 ## Description
 
 Explored and analyzed the IBM Watson Studio platform data. Proceeded to create recommendations for users using rank based , user-user based collaborative filtering and content based methods. 
 
 
 Key Skills Demonstrated:
-* Data Modeling with SQLite
-* ETL Pipeline Creation
+* Exploratory Data Analysis
+* Rank Based Recommendations
+* User-User Based Collaborative Filtering
 * Matrix Factorization
-* NLP 
-* Flask Web App
-
-
-This project is divided in the following key sections:
-
-1. Processing data, building an ETL pipeline to extract data from source, clean the data and save them in a SQLite DB
-2. Build a machine learning pipeline to train the which can classify text message in various categories
-3. Run a web app which can show model results in real time
 
 <a name="getting_started"></a>
-## Getting Started
+## Project Steps
+This project is divided in the following key sections:
+
+I. Exploratory Data Analysis
+
+Before making recommendations of any kind, I explored the data available on the IBM Watson Studio platform.
+
+II. Rank Based Recommendations
+
+To get started in building recommendations, I first found the most popular articles simply based on the most interactions. Since there are no ratings for any of the articles, it is easy to assume the articles with the most interactions are the most popular. These are then the articles we might recommend to new users (or anyone depending on what we know about them).
+
+III. User-User Based Collaborative Filtering
+
+In order to build better recommendations for the users of IBM's platform, I looked at users that are similar in terms of the items they have interacted with. These items could then be recommended to the similar users. This is a step in the right direction towards more personal recommendations for the users.
+
+IV. Content Based Recommendations
+Next, I built a recommender that performs a ranking of the highest ranked articles associated with some term.
+
+V. Matrix Factorization
+
+Finally, I completed a machine learning approach to building recommendations. Using the user-item interactions, I built out a matrix decomposition. Using the decomposition, I got an idea of how well I could predict new articles an individual might interact with. I then discussed which methods to use moving forward, and how to test how well the recommendations are working for engaging users.
+
 
 <a name="dependencies"></a>
 ### Dependencies
 * Python 3.5+
-* Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
+* Libraries: NumPy, Regular expressions, Seaborn, Pandas, Scikit-learn
 * Natural Language Process Libraries: NLTK
-* SQLlite Database Libraqries: SQLalchemy
-* Model Loading and Saving Library: Pickle
-* Web App and Data Visualization: Flask, Plotly
+* Others: progressbar, pycodestyle, pycodestyle_magic, flake8
+
 
 <a name="installation"></a>
 ### Installing
@@ -59,38 +72,6 @@ To clone the git repository:
 ```
 git clone https://github.com/toluwee/Disaster_response-with-ML.git
 ```
-<a name="execution"></a>
-### Executing Program:
-1. You can run the following commands in the project's directory to set up the database, train model and save the model.
-
-    - To run ETL pipeline to clean data and store the processed data in the database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/disaster_response_db.db`
-    - To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file
-        `python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl`
-
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
-
-3. Go to the http address displayed inthe terminal e.g.  http://192.168.0.85:3000/ 
-
-<a name="material"></a>
-### Additional Material
-
-In the **data** and **models** folder you can find two jupyter notebook that will help you understand how the model works step by step:
-1. **ETL Preparation Notebook**: learn everything about the implemented ETL pipeline
-2. **ML Pipeline Preparation Notebook**: look at the Machine Learning Pipeline developed with NLTK and Scikit-Learn
-
-You can use **ML Pipeline Preparation Notebook** to re-train the model or tune it through a dedicated Grid Search section.
-
-<a name="importantfiles"></a>
-### Important Files
-**app/templates/***: templates/html files for web app
-
-**data/process_data.py**: Extract Train Load (ETL) pipeline used for data cleaning, feature extraction, and storing data in a SQLite database
-
-**models/train_classifier.py**: A machine learning pipeline that loads data, trains a model, and saves the trained model as a .pkl file for later use
-
-**app.py**: This file can be used to launch the Flask web app used to classify disaster messages
 
 <a name="authors"></a>
 ## Authors
