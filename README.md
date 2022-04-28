@@ -22,16 +22,15 @@
 
 In the IBM Watson Studio, there is a large collaborative community ecosystem of articles, datasets, notebooks, and other A.I. and ML. assets. Users of the system interact with all of this. Within this scope, we created this recommendation system project to enhance the user experience and connect them with assets. This personalizes the experience for each user.
 
-
 ## Description
 
-Constructed a database and ETL pipeline in SQLite to prepare message data from major natural disasters all over the world. In addition, a machine learning pipeline that uses a natural language processing (NLP) model was built to classify emergency messages based on the sender's stated need. Finally, the pipelines were used to create a website app that categorizes messages.
+Explored and analyzed the IBM Watson Studio platform data. Proceeded to create recommendations for users using rank based , user-user based collaborative filtering and content based methods. 
 
 
 Key Skills Demonstrated:
 * Data Modeling with SQLite
 * ETL Pipeline Creation
-* Machine learning Pipeline
+* Matrix Factorization
 * NLP 
 * Flask Web App
 
@@ -106,21 +105,13 @@ You can use **ML Pipeline Preparation Notebook** to re-train the model or tune i
 ## Acknowledgements
 
 * [Udacity](https://www.udacity.com/) for providing an amazing Data Science Nanodegree Program
-* [Figure Eight](https://www.figure-eight.com/) for providing the relevant dataset to train the model
+* [IBM Watson Studio platform](https://dataplatform.cloud.ibm.com/) for providing the relevant dataset to train the model
 
 <a name="screenshots"></a>
-## Screenshots
+## Recommendation Accuracy
 
-1. This is an example of a message we can type to test the performance of the model
+![Sample Output](image/output.png)
 
-![Sample Input](images/sample_input.png)
 
-2. After clicking **Classify Message**, we can see the categories which the message belongs to highlighted in green
-
-![Sample Output](images/sample_output.png)
-
-3. The main page shows some graphs about training dataset, provided by Figure Eight
-
-![Main Page](images/main.png)
 
 
