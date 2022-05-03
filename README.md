@@ -24,7 +24,7 @@ In the IBM Watson Studio, there is a large collaborative community ecosystem of 
 <a name="Description"></a>
 ## Description
 
-Explored and analyzed the IBM Watson Studio platform data. Proceeded to create recommendations for users using rank based , user-user based collaborative filtering and content based methods. 
+Explored and analyzed the IBM Watson Studio platform data. Proceeded to create recommendations for users using rank based , user-user based collaborative filtering and content-based methods. 
 
 
 Key Skills Demonstrated:
