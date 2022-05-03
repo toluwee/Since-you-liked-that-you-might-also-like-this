@@ -31,6 +31,7 @@ Key Skills Demonstrated:
 * Exploratory Data Analysis
 * Rank Based Recommendations
 * User-User Based Collaborative Filtering
+* Content Based Recommendations
 * Matrix Factorization
 
 <a name="Project_Steps"></a>
@@ -50,6 +51,7 @@ III. User-User Based Collaborative Filtering
 In order to build better recommendations for the users of IBM's platform, I looked at users that are similar in terms of the items they have interacted with. These items could then be recommended to the similar users. This is a step in the right direction towards more personal recommendations for the users.
 
 IV. Content Based Recommendations
+
 Next, I built a recommender that performs a ranking of the highest ranked articles associated with some term.
 
 V. Matrix Factorization
